@@ -1,0 +1,26 @@
+# Ignore environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore Node modules
+node_modules/
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore runtime files
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
